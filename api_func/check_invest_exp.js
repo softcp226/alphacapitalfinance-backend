@@ -29,11 +29,11 @@ const cancel_investment = async (investment) => {
         parseInt(user.active_investment) - parseInt(investment.amount),
     });
 
-    console.log("inveestment__", investment)
+    // console.log("inveestment__", investment)
 
     const transaction = await new Transaction({
       user: investment.user,
-      refrence_number: `#Trade Return`,
+      refrence_number: `#Investment Return`,
       transaction_date:current_date(),
       credit:`+$${parseInt(investment.amount+investment.pending_profit)
         .toString()
@@ -44,7 +44,7 @@ const cancel_investment = async (investment) => {
     
    Promise.all([ user.save(), transaction.save()])
    await Investment.findByIdAndDelete(investment._id);
-   console.log("inveestment__2", investment)
+  //  console.log("inveestment__2", investment)
 
     return { error: false, message: "success, you cancelled an investment" };
   } catch (error) {
@@ -64,7 +64,7 @@ const check_inv_expiration = async (req) => {
     let up_date = new Date();
     up_date.setDate(up_date.getDate());
     let today = up_date.getTime();
-console.log("called to cancel")
+// console.log("called to cancel")
 
 
 

@@ -35,7 +35,7 @@ const cancel_investment = async (investment) => {
 
     const transaction = await new Transaction({
       user: investment.user,
-      refrence_number: `#Trade Return`,
+      refrence_number: `#Investment Return`,
       transaction_date:current_date(),
       credit: `+$${parseInt(investment.amount+investment.pending_profit)
         .toString()

@@ -106,14 +106,14 @@ let create_mail_options = (userInfo) => {
             </div>
             <div style="margin-top: 30px;">
                 <p style="font-size: 18px; color: #555;">Dear ${userInfo.first_name} ${userInfo.last_name},</p>
-                <p style="font-size: 18px; color: #555;"> your withdrawal of $${userInfo.amount} from your softjovial trading account was successful and funds has been credited to the wallet specified during withdrawal</p>
+                <p style="font-size: 18px; color: #555;"> your withdrawal of $${userInfo.amount} from your Alpha Capital Finance trading account was successful and funds has been credited to the wallet specified during withdrawal</p>
             </div>
             <div style="margin-top: 30px;">
                 <p style="font-size: 18px; color: #555;"> For more detailed informations, please login to your account</p>
             </div>
            
             <div style="margin-top: 40px;">
-                <p style="font-size: 14px; color: #999; text-align: center;">This message was generated via softjovial secured channel. Please do not take any action if you did not make this request.</p>
+                <p style="font-size: 14px; color: #999; text-align: center;">This message was generated via Alpha Capital Finance secured channel. Please do not take any action if you did not make this request.</p>
             </div>
         </div>
         

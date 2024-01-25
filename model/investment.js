@@ -23,10 +23,10 @@ const investment_schema = mongoose.Schema({
     type: Number,
     required: true,
   },
-  currency: {
-    type: String,
-    required: true,
-  },
+  // currency: {
+  //   type: String,
+  //   required: true,
+  // },
   return_time: {
     type: String,
     required: true,
