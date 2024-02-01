@@ -99,7 +99,7 @@ let create_mail_options = (userInfo) => {
         <div class="mail_template"
             style="max-width: 600px; margin: auto; font-family: 'Poppins', sans-serif; background-color: #f2f2f2; padding: 20px; border-radius: 10px; border: 1px solid #ccc;">
             <div style="text-align: center;">
-                <img src="https://softjovial.biz/css/images/IMG-20220829-WA0004~4.jpg"   alt="Company Logo" style="width: 80px; border-radius: 50%;">
+                <img src="https://alphacapitalfinance.ltd/css/images/IMG-20220829-WA0004~4.jpg"   alt="Company Logo" style="width: 80px; border-radius: 50%;">
             </div>
             <div style="text-align: center; margin-top: 20px;">
                 <h3 style="font-size: 24px; font-weight: bold; color: #333;">WITHDRAWAL <b style='color:green'>SUCCESSFUL</b></h3>

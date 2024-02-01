@@ -148,7 +148,7 @@ Router.post("/", verifyToken, async (req, res) => {
     );
     res
       .status(200)
-      .json({ error: false, message: "success, you approved a loan" });
+      .json({ error: false, message: "success, you approved a deposit" });
   } catch (error) {
     console.log(error);
     res.status(400).json({ error: true, errMessage: error.message });
