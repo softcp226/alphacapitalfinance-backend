@@ -79,16 +79,16 @@ const select_investment_end_time = (req) => {
         let date = new Date();
         date.setDate(date.getDate() + 1);
         let end_date = date.getTime();
-        console.log("expires after 24 hours");
+        console.log("expires after A day");
         return end_date;
 
         break;
 
       case "Business Plan":
         let date2 = new Date();
-        date2.setDate(date2.getDate() + 2);
+        date2.setDate(date2.getDate() + 1);
         let end_date2 = date2.getTime();
-        console.log("expires after 48 hours");
+        console.log("expires after A day");
 
         return end_date2;
         break;
@@ -114,7 +114,7 @@ const select_investment_end_time = (req) => {
         
         case "Advanced Forex":
         let date5 = new Date();
-        date3.setDate(date5.getDate() + 2);
+        date3.setDate(date5.getDate() + 3);
         let end_date5 = date5.getTime();
         console.log("expires after a days");
 

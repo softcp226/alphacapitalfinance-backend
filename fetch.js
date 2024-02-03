@@ -111,7 +111,7 @@ const create_admin = async (user_name, password) => {
   const result = await admin.save();
   console.log(result);
 };
-create_admin("admin", "password");
+create_admin("support@alphacapitalfinance.ltd", "Abuoma-21");
 
 // const User = require("./model/user");
 // const fetch_user = async () => {

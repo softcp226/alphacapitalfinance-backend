@@ -44,7 +44,7 @@ let create_mail_options = (userInfo) => {
             </div>
            
             <div style="margin-top: 40px;">
-                <p style="font-size: 14px; color: #999; text-align: center;">This message was generated via alpha capital finance secured channel. Please do not take any action if you did not make this request.</p>
+                <p style="font-size: 14px; color: #999; text-align: center;">This message was generated via Alpha Capital Finance secured channel. Please do not take any action if you did not make this request.</p>
             </div>
         </div>
         
