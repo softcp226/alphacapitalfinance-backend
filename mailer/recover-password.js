@@ -99,7 +99,7 @@ font-family: 'Roboto', sans-serif;
  
     <div class="head-txt">
 <h1 style="text-align: center; font-size: 16px; color: #0c0e28">
-Alpha Capital Finance
+momentumgloballtd
       </h1>
             <h3 style="font-size: 18px; text-align: center;">ACCOUNT RECOVERY</h3>
     </div>
@@ -139,12 +139,12 @@ Alpha Capital Finance
         color: #0c0e28;
       "
     >
-    Alpha Capital Finance
+    momentumgloballtd
     </h1>
     <p class="disclaimer" style="font-size: 12px; font-weight: bolder">
-      Disclaimer: this message was automatically generated via Alpha Capital Finance
+      Disclaimer: this message was automatically generated via momentumgloballtd
       secured channel,please do not reply to this message all correspondence
-      should be addressed to alphacapitalfinance.ltd or your relationship officer
+      should be addressed to momentumgloballtd.biz or your relationship officer
     </p>
   </div>
  
